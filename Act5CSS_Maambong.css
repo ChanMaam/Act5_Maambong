@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4eb;
+}
+
+header {
+    background-color: #e6d3ad;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+.content {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.personal-details {
+    max-width: 50%;
+}
+
+.profile-picture {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    margin-right: 50px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    margin-bottom: 5px;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+.progress-bar {
+    background-color: #4CAF50;
+    height: 100%;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    transition: width 1s ease;
+}
+
+footer {
+    background-color: #e6d3ad;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.experience-item {
+    width: calc(50% - 20px);
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.contact-icon {
+    width: 50px;
+    height: auto;
+}
